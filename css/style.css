@@ -15,7 +15,6 @@ header {
   flex-direction: row;
   background-color: var(--blue-color);
   align-items: center;
-  height: 90px;
 }
 
 nav a:hover {
@@ -29,6 +28,7 @@ header h1 {
 
 .navigation {
   display: flex;
+  flex-direction: row;
   width: 50%;
   align-items: center;
   justify-content: space-evenly;
@@ -187,6 +187,7 @@ main section>h2 {
 
 .contact ol {
   display: flex;
+  flex-direction: row;
   width: 60%;
   align-items: center;
 }
@@ -226,6 +227,47 @@ footer::before {
 }
 
 /* media query */
+@media only screen and (max-width: 550px) {
+  .navigation {
+    flex-direction: column;
+    margin-right: 0;
+  }
+
+  .navigation a {
+    margin-bottom: 5%;
+  }
+
+  #workedu {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  #workedu div {
+    margin-bottom: 5%;
+  }
+
+  .carousel-images {
+    width: 124px;
+    height: 394px;
+  }
+
+  .carousel-images:hover {
+    width: 194px;
+    height: 394px;
+  }
+
+  .contact ol {
+    flex-direction: column;
+    width: 50%;
+  }
+
+  .contact li {
+    padding-bottom: 15%;
+    font-size: x-large;
+  }
+}
+
 @media only screen and (max-width: 950px) {
   .hero-banner img {
     min-width: 75%;
@@ -270,7 +312,7 @@ footer::before {
     height: 394px;
   }
 
-  #carousel-images:hover {
+  .carousel-images:hover {
     width: 194px;
     height: 394px;
   }
