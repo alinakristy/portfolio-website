@@ -51,7 +51,6 @@ This section contanis information text about me.
 ## Work-and-Education
 
 When viewing the section about my work and education you can see carousel-images that contain info and links about my work and education and my projects.
- * My college https://ceiti.md/en
  * My university https://usem.md/en
  * My job https://www.victoriabank.md/en
  * My projects 
