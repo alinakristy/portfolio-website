@@ -1,19 +1,19 @@
 :root {
   --brown: rgba(221, 188, 117, 0.543);
   --orange: rgb(235, 159, 18);
-  --brown-color: rgba(225, 195, 129, 0.543);
+  --blue-color: rgba(63, 201, 232, 0.543);
 }
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: rgb(186, 168, 144);
+  background-color: rgb(207, 222, 223);
 }
 
 /*headder*/
 header {
   display: flex;
   flex-direction: row;
-  background-color: var(--brown-color);
+  background-color: var(--blue-color);
   align-items: center;
   height: 90px;
 }
@@ -133,19 +133,19 @@ main section>h2 {
 }
 
 #work {
-  background-image: url("../images/wallpaper.jpeg");
+  background-image: url("../images/VB1.jpeg");
 }
 
 #education {
-  background-image: url("../images/Planning-to-study-abroad.jpg");
+  background-image: url("../images/USEM.jpeg");
 }
 
 #project1 {
-  background-image: url("../images/wall1.jpeg");
+  background-image: url("../images/html.jpeg");
 }
 
 #project2 {
-  background-image: url("../images/wall2.jpeg");
+  background-image: url("../images/css2.jpeg");
 }
 
 .carousel-images:hover {
@@ -206,8 +206,8 @@ footer {
   display: flex;
   justify-content: center;
   padding: 2%;
-  background-color: var(--brown);
-  color: #772f09;
+  background-color: var(--blue-color);
+  color: #c4870d;
   width: 100%;
   font-size: xx-large;
 }
